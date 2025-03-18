@@ -1,0 +1,13 @@
+what are apis and how they look
+
+what ever the functins at backend 
+Component	            Role in API
+React (Frontend)	Calls the API using Axios
+Express (Backend)	Defines API routes (app.get(), app.post(), etc.)
+MongoDB (Database)	Stores data for the API
+
+it is the entire system that allows communication betwee two softwares
+Routing, fetchcalls, batabases access, requesthandling 
+
+
+

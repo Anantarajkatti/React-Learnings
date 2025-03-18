@@ -1,0 +1,6 @@
+Routing
+a process of determining how application responds to digfferent client request urls(Routes)
+
+Front end: page navigation and interaction <routes><route>
+Back end : app.get,put,post,delete
+

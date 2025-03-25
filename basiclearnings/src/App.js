@@ -3,6 +3,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './components/Home.js';
 import CrudHome from './Crudcomponents/crudHome.js';
 import CountDown from './components/countDown.js';
+import UseCallBackParent from './components/useCallback/Parent.js';
+
 
 
 // React
@@ -25,13 +27,16 @@ function App() {
   return (
     <div className="App">
    
-    <BrowserRouter> 
+    {/* <BrowserRouter> 
       <Routes> 
         <Route path='/' element={<Home/>}/>
       </Routes> 
-    </BrowserRouter> 
-    <CrudHome/> 
-    <CountDown/>
+    </BrowserRouter>  */}
+    {/* <CrudHome/> 
+    <CountDown/> */}
+   
+   {/* useCallBak */}
+   <UseCallBackParent/>
     
     </div> 
   );

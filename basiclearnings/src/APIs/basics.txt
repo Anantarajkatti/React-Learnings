@@ -9,5 +9,23 @@ MongoDB (Database)	Stores data for the API
 it is the entire system that allows communication betwee two softwares
 Routing, fetchcalls, batabases access, requesthandling 
 
+why to study:- because we knoow what to send, how to send, what have been received, errors
+
+HTTP Methods
+get, put, post, delete, patch
+
+api end points
+/user
+/user/:id
+
+api response
+api return response in json format
+{
+  "success": true,
+  "data": { "id": 1, "name": "John Doe" }
+}
+
+
+
 
 
